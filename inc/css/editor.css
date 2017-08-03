@@ -1,0 +1,23 @@
+/*
+ * Style sheet for Plugins/Themes Editor pages
+ *
+ * @package     Syntax Highlighter for Post/Page HTML Editor
+ * @uthor       Arthur Gareginyan
+ * @link        https://www.arthurgareginyan.com
+ * @copyright   Copyright (c) 2017 Arthur Gareginyan. All Rights Reserved.
+ * @since       2.0
+ */
+
+
+.CodeMirror {
+    height: 100% !important;
+    border: 1px solid grey;
+}
+
+div.CodeMirror-hscrollbar {
+    min-height: 8px !important;
+}
+
+#template div {
+    margin-right: 0;
+}
